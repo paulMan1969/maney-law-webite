@@ -217,15 +217,28 @@ export default function Home() {
                   This form is ready for wiring to email next.
                 </p>
 
-                <form className="consult-form">
-                  <input type="text" placeholder="Full Name" />
-                  <input type="tel" placeholder="Phone" />
-                  <input type="email" placeholder="Email" />
-                  <textarea rows="5" placeholder="Tell us about your situation" />
-                  <button type="button" className="button button-primary button-full">
-                    Submit Consultation Request
-                  </button>
-                </form>
+               <form
+  className="consult-form"
+  action="https://formspree.io/f/xabcd123"
+  method="POST"
+>
+  <input type="text" name="name" placeholder="Full Name" required />
+  <input type="tel" name="phone" placeholder="Phone" />
+  <input type="email" name="email" placeholder="Email" required />
+
+  <textarea
+    name="message"
+    rows="5"
+    placeholder="Tell us about your situation"
+    required
+  ></textarea>
+
+  <input type="hidden" name="_subject" value="New Consultation Request - Maney Law LLC" />
+
+  <button type="submit" className="button button-primary button-full">
+    Submit Consultation Request
+  </button>
+</form>
 
                 <p className="disclaimer">
                   Submitting this form does not create an attorney-client relationship.
