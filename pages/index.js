@@ -147,13 +147,25 @@ export default function Home() {
 
                 <div className="body-copy">
                   <p>
-                    Born and raised in South Tampa, Paul attended Berkeley Preparatory School and is a Troop 4 Eagle Scout. He received his undergraduate degree from Boston University and his Juris Doctor from The University of Montana School of Law.
+                   Paul began his legal career at Maney, Damsker, Jones &amp; Kuhlman, P.A., where he practiced from 2003 through 2014 representing clients in sophisticated family law matters. In 2015, he founded his own firm, Paul S. Maney, P.A., doing business as Maney Family Law, where he has continued to represent clients from all walks of life, including professionals, business owners, and military service members, with a results-driven approach.
                   </p>
                   <p>
-                    Paul served as an Officer in the United States Marine Corps, attaining the rank of Captain and receiving a Navy Commendation Medal for meritorious service.
+                    Now, through Maney Law LLC, Paul is proud to serve clients across the Kenai Peninsula, including Seldovia, Homer, Soldotna, and Kenai. With modern technology such as Zoom and Microsoft Teams, he provides responsive, high-level legal representation without requiring clients to travel, while remaining fully prepared to appear in court when it matters most.
                   </p>
                   <p>
-                    Since joining the Florida Bar in 2003, Paul has practiced family law representing high net worth clients and has been recognized for exceptional pro bono service.
+                    Paul’s connection to Alaska runs deep. His family has been traveling here since 2006, forming lasting friendships and becoming part of the community. In 2024, they purchased a home in Seldovia, where they were welcomed with open arms. In 2025, his daughter Parker married into a long-time local family, and she and her husband now work together in the family aviation business, True North Air, LLC. Alaska is not just a place Paul practices, it is like home.
+                  </p>
+                  <p>
+                    Paul also brings a unique perspective to military family law. Having served as Commanding Officer of Company E, 3d Assault Amphibian Battalion, 1st Marine Division, he understands the realities of military life. His years practicing near MacDill Air Force Base in Tampa strengthened his experience handling military divorces, custody issues, and relocation matters.
+                  </p>
+                  <p>
+                    Beyond his practice, Paul has a long-standing commitment to service. He has been actively involved with the Hillsborough County Family Law Executive Council for many years and currently serves as Co-Chair of the Awards Committee. Pro bono work has always been a priority. He regularly volunteers at legal advice clinics and is a sustaining member of Bay Area Legal Services.
+                  </p>
+                  <p>
+                    Paul is committed to helping individuals and families in Alaska navigate difficult transitions with clarity, strength, and experienced guidance. When the stakes are high, you want an attorney who has been there before and knows how to move your case forward.
+                  </p>
+                  <p>
+                    An Eagle Scout, Paul earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.
                   </p>
                 </div>
               </div>
