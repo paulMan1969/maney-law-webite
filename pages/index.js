@@ -15,7 +15,7 @@ export default function Home() {
       <header style={{ position: 'sticky', top: 0, zIndex: 50, background: 'rgba(248,247,244,0.96)', borderBottom: '1px solid rgba(30,46,82,0.10)', backdropFilter: 'blur(8px)' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '18px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-            <img src="/logo.png" alt="Maney Law LLC logo" style={{ height: 74, width: 'auto', display: 'block' }} />
+            <img src="/logo.png" alt="Maney Law LLC logo" style={{ height: 64, width: 'auto', display: 'block', objectFit: 'contain' }} />
           </div>
           <nav style={{ display: 'flex', gap: 24, fontSize: 14, color: '#334155', flexWrap: 'wrap' }}>
             <a href="#about" style={{ color: 'inherit', textDecoration: 'none' }}>About</a>
