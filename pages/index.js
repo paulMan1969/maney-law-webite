@@ -23,7 +23,7 @@ export default function Home() {
             <a href="#attorney" style={{ color: 'inherit', textDecoration: 'none' }}>Attorney</a>
             <a href="#contact" style={{ color: 'inherit', textDecoration: 'none' }}>Contact</a>
           </nav>
-          <a href={scheduleUrl} target="_blank" rel="noreferrer" style={{ background: '#1e2e52', color: '#fff', textDecoration: 'none', padding: '12px 16px', borderRadius: 16, fontSize: 14, fontWeight: 600 }}>
+  <a href={scheduleUrl} ... style={{ background: '#1e2e52', color: '#fff', padding: '12px 18px', borderRadius: 999, fontSize: 14, fontWeight: 600 }}>
             Schedule Zoom Consultation
           </a>
         </div>
