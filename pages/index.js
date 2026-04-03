@@ -219,7 +219,7 @@ export default function Home() {
 
                <form
   className="consult-form"
-  action="https://formspree.io/f/xabcd123"
+  action="https://formspree.io/f/mqegygbe"
   method="POST"
 >
   <input type="text" name="name" placeholder="Full Name" required />
