@@ -503,8 +503,3 @@ export default function Home() {
     </div>
   );
 }
-        © 2026 Maney Law LLC — Serving clients throughout Alaska
-      </footer>
-    </div>
-  );
-}
