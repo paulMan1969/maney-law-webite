@@ -1,502 +1,720 @@
 export default function Home() {
   const practiceAreas = [
-    { title: "Divorce", description: "Strategic, efficient representation in contested and uncontested divorce matters." },
-    { title: "Child Custody", description: "Guidance through custody, parenting plans, and decision-making issues with a focus on stability and clarity." },
-    { title: "Child Support", description: "Accurate financial analysis and advocacy in establishing and modifying child support." },
-    { title: "Alimony", description: "Thoughtful counsel on spousal support, both in establishing and defending claims." },
-    { title: "Property Division", description: "Careful handling of asset division, including complex and high-value estates." },
-    { title: "Modifications & Enforcement", description: "Representation in post-judgment modifications and enforcement actions when circumstances change." },
+    {
+      title: "Divorce",
+      description:
+        "Strategic, efficient representation in contested and uncontested divorce matters.",
+    },
+    {
+      title: "Child Custody",
+      description:
+        "Guidance through custody, parenting plans, and decision-making issues with a focus on stability and clarity.",
+    },
+    {
+      title: "Child Support",
+      description:
+        "Accurate financial analysis and advocacy in establishing and modifying child support.",
+    },
+    {
+      title: "Alimony",
+      description:
+        "Thoughtful counsel on spousal support, both in establishing and defending claims.",
+    },
+    {
+      title: "Property Division",
+      description:
+        "Careful handling of asset division, including complex and high-value estates.",
+    },
+    {
+      title: "Modifications & Enforcement",
+      description:
+        "Representation in post-judgment modifications and enforcement actions when circumstances change.",
+    },
   ];
 
   const scheduleUrl = "https://calendly.com/paul-m-placeholder";
 
   return (
-    <div
-      style={{
-        fontFamily: "Georgia, ui-serif, serif",
-        background: "#f8f7f4",
-        color: "#0f172a",
-        minHeight: "100vh",
-      }}
-    >
-      <header
-        style={{
-          position: "sticky",
-          top: 0,
-          zIndex: 50,
-          background: "rgba(248,247,244,0.96)",
-          borderBottom: "1px solid rgba(30,46,82,0.10)",
-          backdropFilter: "blur(8px)",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 1200,
-            margin: "0 auto",
-            padding: "18px 24px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            gap: 24,
-          }}
-        >
-          <div style={{ display: "flex", alignItems: "center", gap: 14, minHeight: 64 }}>
-            <img
-              src="/logo.png"
-              alt="Maney Law LLC logo"
-              style={{
-                height: 64,
-                width: "auto",
-                display: "block",
-                objectFit: "contain",
-              }}
-            />
+    <>
+      <div className="page-shell">
+        <header className="site-header">
+          <div className="container header-inner">
+            <a href="#top" className="brand" aria-label="Maney Law LLC home">
+              <img src="/logo.png" alt="Maney Law LLC" className="brand-logo" />
+            </a>
+
+            <nav className="site-nav" aria-label="Primary navigation">
+              <a href="#about">About</a>
+              <a href="#practice">Practice Areas</a>
+              <a href="#attorney">Attorney</a>
+              <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" className="header-cta">
+              Schedule Consultation
+            </a>
           </div>
+        </header>
 
-          <nav style={{ display: "flex", gap: 24, fontSize: 14, color: "#334155", flexWrap: "wrap" }}>
-            <a href="#about" style={{ color: "inherit", textDecoration: "none" }}>
-              About
-            </a>
-            <a href="#practice" style={{ color: "inherit", textDecoration: "none" }}>
-              Practice Areas
-            </a>
-            <a href="#attorney" style={{ color: "inherit", textDecoration: "none" }}>
-              Attorney
-            </a>
-            <a href="#contact" style={{ color: "inherit", textDecoration: "none" }}>
-              Contact
-            </a>
-          </nav>
+        <main id="top">
+          <section className="hero-section">
+            <div className="hero-glow hero-glow-left" />
+            <div className="hero-glow hero-glow-right" />
 
-          <a
-            href={scheduleUrl}
-            target="_blank"
-            rel="noreferrer"
-            style={{
-              background: "#1e2e52",
-              color: "#fff",
-              textDecoration: "none",
-              padding: "12px 18px",
-              borderRadius: 999,
-              fontSize: 14,
-              fontWeight: 600,
-            }}
-          >
-            Schedule Zoom Consultation
-          </a>
-        </div>
+            <div className="container hero-grid">
+              <div className="hero-copy">
+                <div className="eyebrow">Efficiently Delivering Quality Legal Service</div>
 
-        <div
-          style={{
-            height: 2,
-            background: "linear-gradient(90deg, #c7a24a 0%, #d9bb67 50%, #c7a24a 100%)",
-          }}
-        />
-      </header>
+                <h1>
+                  Discreet, high-end family law representation for clients throughout Alaska.
+                </h1>
 
-      <main>
-        <section style={{ position: "relative", overflow: "hidden" }}>
-          <div
-            style={{
-              maxWidth: 1200,
-              margin: "0 auto",
-              padding: "72px 24px",
-              display: "grid",
-              gridTemplateColumns: "1.1fr 0.9fr",
-              gap: 48,
-              alignItems: "center",
-            }}
-          >
-            <div>
-              <div
-                style={{
-                  display: "inline-block",
-                  border: "1px solid rgba(199,162,74,0.4)",
-                  background: "#fff",
-                  padding: "8px 14px",
-                  borderRadius: 999,
-                  fontSize: 12,
-                  color: "#475569",
-                  boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-                }}
-              >
-                Efficiently Delivering Quality Legal Service
+                <p className="lead">
+                  Led by attorney Paul S. Maney, Maney Law LLC brings more than two decades of family law experience to clients seeking practical, efficient, and discreet representation.
+                </p>
+
+                <p className="sublead">
+                  Based in Homer and admitted to the Alaska Bar in 2026, the firm serves clients throughout Alaska with consultations available by Zoom and phone.
+                </p>
+
+                <div className="hero-actions">
+                  <a href="#contact" className="button button-primary">
+                    Request Consultation
+                  </a>
+                  <a href="tel:9076300009" className="button button-secondary">
+                    Call 907.630.0009
+                  </a>
+                </div>
               </div>
 
-              <h1
-                style={{
-                  fontSize: "clamp(2.5rem, 5vw, 4.1rem)",
-                  lineHeight: 1.08,
-                  color: "#1e2e52",
-                  margin: "20px 0 0",
-                  letterSpacing: "-0.02em",
-                }}
-              >
-                Experienced family law representation for clients throughout Alaska.
-              </h1>
-
-              <p style={{ fontSize: 20, lineHeight: 1.8, color: "#475569", maxWidth: 720, marginTop: 24 }}>
-                Led by attorney Paul S. Maney, Maney Law LLC brings more than two decades of family law experience to clients seeking practical, efficient, and discreet representation.
-              </p>
-
-              <p style={{ fontSize: 16, lineHeight: 1.8, color: "#64748b", maxWidth: 720, marginTop: 14 }}>
-                Based in Homer and serving clients throughout Alaska, the firm offers consultations by Zoom and phone for a streamlined, professional client experience.
-              </p>
-
-              <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginTop: 28 }}>
-                <a
-                  href="#contact"
-                  style={{
-                    background: "#1e2e52",
-                    color: "#fff",
-                    textDecoration: "none",
-                    padding: "14px 20px",
-                    borderRadius: 16,
-                    fontWeight: 600,
-                  }}
-                >
-                  Request Consultation
-                </a>
-
-                <a
-                  href="tel:9076300009"
-                  style={{
-                    border: "1px solid #cbd5e1",
-                    color: "#0f172a",
-                    textDecoration: "none",
-                    padding: "14px 20px",
-                    borderRadius: 16,
-                    fontWeight: 600,
-                    background: "#fff",
-                  }}
-                >
-                  Call 907.630.0009
-                </a>
+              <div className="hero-image-wrap">
+                <img src="/paul-main.jpg" alt="Paul Maney" className="hero-image" />
               </div>
             </div>
+          </section>
 
-            <div>
-              <img
-                src="/paul-main.jpg"
-                alt="Paul Maney"
-                style={{
-                  width: "100%",
-                  maxWidth: 520,
-                  borderRadius: 28,
-                  boxShadow: "0 24px 60px rgba(15,23,42,0.18)",
-                  objectFit: "cover",
-                }}
-              />
-            </div>
-          </div>
-        </section>
-
-        <section id="about" style={{ maxWidth: 1200, margin: "0 auto", padding: "72px 24px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48 }}>
-            <div>
-              <div
-                style={{
-                  fontSize: 12,
-                  letterSpacing: "0.24em",
-                  textTransform: "uppercase",
-                  color: "#7a6222",
-                  fontWeight: 700,
-                }}
-              >
-                About the Firm
+          <section id="about" className="section section-light">
+            <div className="container split-section">
+              <div>
+                <div className="section-label">About the Firm</div>
+                <h2>Family law service designed to be both efficient and personal.</h2>
               </div>
-              <h2 style={{ fontSize: 42, lineHeight: 1.12, color: "#1e2e52", marginTop: 14 }}>
-                Refined service, efficient process, and personal attention.
-              </h2>
-            </div>
 
-            <div style={{ color: "#475569", fontSize: 18, lineHeight: 1.9 }}>
-              <p>Maney Law LLC is a remote family law practice based in the Homer area and serving clients throughout Alaska.</p>
+              <div className="body-copy">
+                <p>
+                  Maney Law LLC is a remote family law practice based in the Homer area and serving clients throughout Alaska.
+                </p>
+                <p>
+                  The firm is built for clients who want experienced counsel, responsive communication, and a professional process that respects both the emotional and financial weight of family law matters.
+                </p>
+                <p>
+                  Consultations and meetings are available by Zoom and phone, offering convenient access to legal guidance without sacrificing personal attention.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="practice" className="section section-white">
+            <div className="container">
+              <div className="section-head">
+                <div className="section-label">Practice Areas</div>
+                <h2>Focused family law representation.</h2>
+                <p>
+                  Clear, recognizable services presented in a format that reads well on desktop and mobile.
+                </p>
+              </div>
+
+              <div className="card-grid">
+                {practiceAreas.map((area) => (
+                  <article key={area.title} className="info-card">
+                    <h3>{area.title}</h3>
+                    <p>{area.description}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section id="attorney" className="section section-light">
+            <div className="container attorney-grid">
+              <div className="attorney-photo-wrap">
+                <img src="/paul-main.jpg" alt="Paul Maney portrait" className="attorney-photo" />
+              </div>
+
+              <div>
+                <div className="section-label">Attorney Bio</div>
+                <h2>About Paul Maney</h2>
+
+                <div className="body-copy">
+                  <p>
+                    Born and raised in South Tampa, Paul attended Berkeley Preparatory School and is a Troop 4 Eagle Scout. He received his undergraduate degree from Boston University and his Juris Doctor from The University of Montana School of Law.
+                  </p>
+                  <p>
+                    Paul served as an Officer in the United States Marine Corps, attaining the rank of Captain and receiving a Navy Commendation Medal for meritorious service.
+                  </p>
+                  <p>
+                    Since joining the Florida Bar in 2003, Paul has practiced family law representing high net worth clients and has been recognized for exceptional pro bono service.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="section band-section">
+            <div className="container centered-copy">
+              <div className="section-label label-light">A Better Client Experience</div>
+              <h2>Professional guidance with the flexibility of remote access.</h2>
               <p>
-                The firm is designed for clients who value experienced counsel, responsive communication, and a professional process that respects both the emotional and financial weight of family law matters.
-              </p>
-              <p>Meetings are conducted by Zoom and phone, making high-quality legal guidance easier to access wherever you are in Alaska.</p>
-            </div>
-          </div>
-        </section>
-
-        <section id="practice" style={{ background: "#ffffff", padding: "72px 24px" }}>
-          <div style={{ maxWidth: 1200, margin: "0 auto" }}>
-            <div style={{ maxWidth: 760 }}>
-              <div
-                style={{
-                  fontSize: 12,
-                  letterSpacing: "0.24em",
-                  textTransform: "uppercase",
-                  color: "#7a6222",
-                  fontWeight: 700,
-                }}
-              >
-                Practice Areas
-              </div>
-              <h2 style={{ fontSize: 42, lineHeight: 1.12, color: "#1e2e52", marginTop: 14 }}>
-                Focused family law representation.
-              </h2>
-            </div>
-
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 24, marginTop: 36 }}>
-              {practiceAreas.map((area) => (
-                <div
-                  key={area.title}
-                  style={{
-                    border: "1px solid #e2e8f0",
-                    borderRadius: 28,
-                    padding: 28,
-                    boxShadow: "0 8px 24px rgba(15,23,42,0.05)",
-                    background: "#f8f7f4",
-                  }}
-                >
-                  <h3 style={{ fontSize: 24, color: "#1e2e52", margin: 0 }}>{area.title}</h3>
-                  <p style={{ marginTop: 14, color: "#475569", lineHeight: 1.8, fontSize: 15 }}>{area.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="attorney" style={{ maxWidth: 1200, margin: "0 auto", padding: "72px 24px" }}>
-          <div
-            style={{
-              background: "#ffffff",
-              border: "1px solid #e2e8f0",
-              borderRadius: 30,
-              padding: "40px 36px",
-              boxShadow: "0 16px 40px rgba(15,23,42,0.06)",
-            }}
-          >
-            <div
-              style={{
-                fontSize: 12,
-                letterSpacing: "0.24em",
-                textTransform: "uppercase",
-                color: "#7a6222",
-                fontWeight: 700,
-              }}
-            >
-              Attorney Bio
-            </div>
-
-            <h2 style={{ fontSize: 42, lineHeight: 1.12, color: "#1e2e52", marginTop: 14, marginBottom: 28 }}>
-              Paul Maney
-            </h2>
-
-            <div style={{ overflow: "hidden" }}>
-              <img
-                src="/paul-main.jpg"
-                alt="Paul Maney portrait"
-                style={{
-                  width: "100%",
-                  maxWidth: 340,
-                  float: "right",
-                  marginLeft: 32,
-                  marginBottom: 24,
-                  borderRadius: 28,
-                  boxShadow: "0 20px 50px rgba(15,23,42,0.14)",
-                  objectFit: "cover",
-                }}
-              />
-
-              <div
-                style={{
-                  color: "#475569",
-                  fontSize: 17,
-                  lineHeight: 1.95,
-                  columnCount: 2,
-                  columnGap: 36,
-                }}
-              >
-                <p style={{ marginTop: 0 }}>
-                  If you are facing a divorce, custody dispute, or financial battle, experience matters, and so does having an attorney who knows how to win in court.
-                </p>
-
-                <p>
-                  Paul S. Maney brings more than 20 years of focused family law experience to Alaska. Admitted to the Florida Bar in 2003 and the Alaska Bar in 2026, Paul has built his career handling complex, high-stakes family law cases, including divorce, child custody, relocation, support, and significant financial disputes. He has extensive trial experience and is known for thorough preparation, strategic thinking, and strong courtroom advocacy.
-                </p>
-
-                <p>
-                  Paul began his legal career at Maney, Damsker, Jones &amp; Kuhlman, P.A., where he practiced from 2003 through 2014 representing clients in sophisticated family law matters. In 2015, he founded his own firm, Paul S. Maney, P.A., doing business as Maney Family Law, where he has continued to represent clients from all walks of life, including professionals, business owners, and military service members, with a results-driven approach.
-                </p>
-
-                <p>
-                  Now, through Maney Law LLC, Paul is proud to serve clients across the Kenai Peninsula, including Seldovia, Homer, Soldotna, and Kenai. With modern technology such as Zoom and Microsoft Teams, he provides responsive, high-level legal representation without requiring clients to travel, while remaining fully prepared to appear in court when it matters most.
-                </p>
-
-                <p>
-                  Paul’s connection to Alaska runs deep. His family has been traveling here since 2006, forming lasting friendships and becoming part of the community. In 2024, they purchased a home in Seldovia, where they were welcomed with open arms. In 2025, his daughter Parker married into a long-time local family, and she and her husband now work together in the family aviation business, True North Air, LLC. Alaska is not just a place Paul practices, it is like home.
-                </p>
-
-                <p>
-                  Paul also brings a unique perspective to military family law. As a former Officer in the United States Marine Corps, where he served as a Captain and received the Navy Commendation Medal, he understands the realities of military life. His years practicing near MacDill Air Force Base in Tampa strengthened his experience handling military divorces, custody issues, and relocation matters.
-                </p>
-
-                <p>
-                  Beyond his practice, Paul has a long-standing commitment to service. He has been actively involved with the Hillsborough County Family Law Executive Council for many years and currently serves as Co-Chair of the Awards Committee. Pro bono work has always been a priority. He regularly volunteers at legal advice clinics and is a sustaining member of Bay Area Legal Services.
-                </p>
-
-                <p>
-                  Paul is committed to helping individuals and families in Alaska navigate difficult transitions with clarity, strength, and experienced guidance. When the stakes are high, you want an attorney who has been there before and knows how to move your case forward.
-                </p>
-
-                <p>
-                  An Eagle Scout, Paul earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.
-                </p>
-
-                <p>
-                  Before entering the legal profession, Paul served as an Officer in the United States Marine Corps from 1991 to 1995, holding leadership roles as a Platoon Commander, Executive Officer, and Commanding Officer for Company E, 3d Assault Amphibian Battalion, 1st Marine Division.
-                </p>
-   
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" style={{ background: "#1e2e52", color: "#fff", padding: "72px 24px" }}>
-          <div
-            style={{
-              maxWidth: 1120,
-              margin: "0 auto",
-              display: "grid",
-              gridTemplateColumns: "0.92fr 1.08fr",
-              gap: 32,
-              alignItems: "start",
-            }}
-          >
-            <div>
-              <div
-                style={{
-                  fontSize: 12,
-                  letterSpacing: "0.24em",
-                  textTransform: "uppercase",
-                  color: "#d9bb67",
-                  fontWeight: 700,
-                }}
-              >
-                Contact
-              </div>
-
-              <h2 style={{ fontSize: 42, lineHeight: 1.12, marginTop: 14 }}>
-                Start with a call or consultation request.
-              </h2>
-
-              <p style={{ marginTop: 18, color: "#d7deea", fontSize: 17, lineHeight: 1.8 }}>
-                Reach out to discuss your family law matter. Meetings are available by Zoom and phone.
-              </p>
-
-              <div style={{ marginTop: 28, display: "grid", gap: 14, fontSize: 16 }}>
-                <div>
-                  <strong>Phone:</strong>{" "}
-                  <a href="tel:9076300009" style={{ color: "#fff" }}>
-                    907.630.0009
-                  </a>
-                </div>
-                <div>
-                  <strong>Email:</strong>{" "}
-                  <a href="mailto:paul@maneylawllc.com" style={{ color: "#fff" }}>
-                    paul@maneylawllc.com
-                  </a>
-                </div>
-                <div>
-                  <strong>Instagram:</strong>{" "}
-                  <a href="https://instagram.com/maney_law_llc" style={{ color: "#fff" }} target="_blank" rel="noreferrer">
-                    @maney_law_llc
-                  </a>
-                </div>
-                <div>
-                  <strong>Service Area:</strong> Alaska, with a home base in Homer
-                </div>
-              </div>
-            </div>
-
-            <div
-              style={{
-                background: "#ffffff",
-                color: "#0f172a",
-                borderRadius: 30,
-                padding: 30,
-                boxShadow: "0 16px 36px rgba(0,0,0,0.18)",
-              }}
-            >
-              <h3 style={{ fontSize: 28, color: "#1e2e52", marginTop: 0 }}>Request a Consultation</h3>
-              <p style={{ color: "#64748b", lineHeight: 1.8, marginTop: 10 }}>
-                Replace the form action below with your Formspree endpoint to have submissions sent to your email.
-              </p>
-
-              <form action="https://formspree.io/f/your-form-id" method="POST" style={{ display: "grid", gap: 14, marginTop: 22 }}>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Full Name"
-                  required
-                  style={{ padding: "14px 16px", borderRadius: 16, border: "1px solid #cbd5e1", fontSize: 15 }}
-                />
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone"
-                    style={{ padding: "14px 16px", borderRadius: 16, border: "1px solid #cbd5e1", fontSize: 15 }}
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                    style={{ padding: "14px 16px", borderRadius: 16, border: "1px solid #cbd5e1", fontSize: 15 }}
-                  />
-                </div>
-                <textarea
-                  name="message"
-                  rows="5"
-                  placeholder="Briefly describe your family law matter"
-                  style={{ padding: "14px 16px", borderRadius: 16, border: "1px solid #cbd5e1", fontSize: 15 }}
-                />
-                <button
-                  type="submit"
-                  style={{
-                    background: "#1e2e52",
-                    color: "#fff",
-                    border: "none",
-                    padding: "14px 16px",
-                    borderRadius: 16,
-                    fontSize: 15,
-                    fontWeight: 600,
-                    cursor: "pointer",
-                  }}
-                >
-                  Submit Consultation Request
-                </button>
-              </form>
-
-              <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 16 }}>
-                <a href={scheduleUrl} target="_blank" rel="noreferrer" style={{ color: "#1e2e52", fontWeight: 600 }}>
-                  Schedule a Zoom consultation
-                </a>
-              </div>
-
-              <p style={{ fontSize: 12, color: "#64748b", marginTop: 16 }}>
-                Submitting this form does not create an attorney-client relationship.
+                Whether you are in Homer or elsewhere in Alaska, Maney Law LLC offers a streamlined way to get the legal help you need through Zoom and phone consultations.
               </p>
             </div>
-          </div>
-        </section>
-      </main>
+          </section>
 
-      <footer
-        style={{
-          textAlign: "center",
-          padding: "24px",
-          color: "#64748b",
-          fontSize: 14,
-          background: "#ffffff",
-        }}
-      >
-        © 2026 Maney Law LLC — Serving clients throughout Alaska
-      </footer>
-    </div>
+          <section id="contact" className="section section-light">
+            <div className="container contact-grid">
+              <div className="contact-copy">
+                <div className="section-label">Contact</div>
+                <h2>Start with a call or consultation request.</h2>
+                <p>
+                  Reach out to discuss your family law matter. Meetings are available by Zoom and phone.
+                </p>
+
+                <div className="contact-list">
+                  <div className="contact-item">
+                    <strong>Phone</strong>
+                    <a href="tel:9076300009">907.630.0009</a>
+                  </div>
+                  <div className="contact-item">
+                    <strong>Email</strong>
+                    <a href="mailto:paul@maneylawllc.com">paul@maneylawllc.com</a>
+                  </div>
+                  <div className="contact-item">
+                    <strong>Instagram</strong>
+                    <a href="https://instagram.com/maney_law_llc">@maney_law_llc</a>
+                  </div>
+                  <div className="contact-item">
+                    <strong>Schedule a Zoom Consultation</strong>
+                    <a href={scheduleUrl}>Book Online</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="form-card">
+                <h3>Request Consultation</h3>
+                <p className="form-note">
+                  This form is ready for wiring to email next.
+                </p>
+
+                <form className="consult-form">
+                  <input type="text" placeholder="Full Name" />
+                  <input type="tel" placeholder="Phone" />
+                  <input type="email" placeholder="Email" />
+                  <textarea rows="5" placeholder="Tell us about your situation" />
+                  <button type="button" className="button button-primary button-full">
+                    Submit Consultation Request
+                  </button>
+                </form>
+
+                <p className="disclaimer">
+                  Submitting this form does not create an attorney-client relationship.
+                </p>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer className="site-footer">
+          <div className="container footer-inner">
+            <div>© 2026 Maney Law LLC</div>
+            <div>Family Law • Homer, Alaska • Remote consultations by Zoom and phone</div>
+          </div>
+        </footer>
+      </div>
+
+      <style jsx global>{`
+        * {
+          box-sizing: border-box;
+        }
+
+        html {
+          scroll-behavior: smooth;
+        }
+
+        body {
+          margin: 0;
+          font-family: Georgia, 'Times New Roman', serif;
+          background: #f8f7f4;
+          color: #0f172a;
+        }
+
+        img {
+          max-width: 100%;
+          display: block;
+        }
+
+        a {
+          color: inherit;
+        }
+
+        .page-shell {
+          min-height: 100vh;
+          background: #f8f7f4;
+        }
+
+        .container {
+          width: min(1200px, calc(100% - 40px));
+          margin: 0 auto;
+        }
+
+        .site-header {
+          position: sticky;
+          top: 0;
+          z-index: 50;
+          background: rgba(248, 247, 244, 0.96);
+          backdrop-filter: blur(10px);
+          border-bottom: 1px solid rgba(30, 46, 82, 0.1);
+        }
+
+        .header-inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 14px 0;
+          flex-wrap: wrap;
+        }
+
+        .brand {
+          display: inline-flex;
+          align-items: center;
+          min-width: 0;
+        }
+
+        .brand-logo {
+          height: 58px;
+          width: auto;
+        }
+
+        .site-nav {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          color: #334155;
+        }
+
+        .site-nav a {
+          text-decoration: none;
+          white-space: nowrap;
+        }
+
+        .header-cta,
+        .button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          border-radius: 16px;
+          padding: 14px 18px;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 1.2;
+          transition: transform 0.15s ease, opacity 0.15s ease;
+        }
+
+        .header-cta:hover,
+        .button:hover {
+          opacity: 0.92;
+          transform: translateY(-1px);
+        }
+
+        .header-cta,
+        .button-primary {
+          background: #1e2e52;
+          color: #ffffff;
+          border: 1px solid #1e2e52;
+        }
+
+        .button-secondary {
+          background: rgba(255, 255, 255, 0.9);
+          color: #0f172a;
+          border: 1px solid #cbd5e1;
+        }
+
+        .button-full {
+          width: 100%;
+          cursor: pointer;
+        }
+
+        .hero-section {
+          position: relative;
+          overflow: hidden;
+          padding: 64px 0 72px;
+        }
+
+        .hero-glow {
+          position: absolute;
+          inset: auto;
+          width: 38rem;
+          height: 38rem;
+          border-radius: 999px;
+          filter: blur(70px);
+          opacity: 0.35;
+          pointer-events: none;
+        }
+
+        .hero-glow-left {
+          top: -12rem;
+          left: -10rem;
+          background: rgba(199, 162, 74, 0.35);
+        }
+
+        .hero-glow-right {
+          bottom: -14rem;
+          right: -10rem;
+          background: rgba(30, 46, 82, 0.22);
+        }
+
+        .hero-grid,
+        .attorney-grid,
+        .contact-grid,
+        .split-section {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 40px;
+          align-items: center;
+        }
+
+        .hero-copy h1,
+        .section h2,
+        .band-section h2 {
+          margin: 0;
+          color: #1e2e52;
+          letter-spacing: -0.03em;
+          line-height: 1.06;
+        }
+
+        .hero-copy h1 {
+          font-size: clamp(2.45rem, 5vw, 4.75rem);
+          max-width: 12ch;
+        }
+
+        .lead {
+          margin-top: 22px;
+          font-size: clamp(1.05rem, 2vw, 1.22rem);
+          line-height: 1.85;
+          color: #475569;
+          max-width: 42rem;
+        }
+
+        .sublead {
+          margin-top: 10px;
+          font-size: 1rem;
+          line-height: 1.85;
+          color: #64748b;
+          max-width: 42rem;
+        }
+
+        .eyebrow,
+        .section-label {
+          display: inline-block;
+          font-family: Arial, sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.18em;
+          font-size: 12px;
+          font-weight: 700;
+        }
+
+        .eyebrow {
+          margin-bottom: 18px;
+          padding: 9px 14px;
+          border-radius: 999px;
+          background: #ffffff;
+          border: 1px solid rgba(199, 162, 74, 0.4);
+          color: #64748b;
+          box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+        }
+
+        .section-label {
+          color: #8a6b19;
+          margin-bottom: 14px;
+        }
+
+        .label-light {
+          color: #d9bb67;
+        }
+
+        .hero-actions {
+          display: flex;
+          gap: 14px;
+          flex-wrap: wrap;
+          margin-top: 28px;
+        }
+
+        .hero-image-wrap,
+        .attorney-photo-wrap {
+          display: flex;
+          justify-content: center;
+        }
+
+        .hero-image,
+        .attorney-photo {
+          width: 100%;
+          max-width: 500px;
+          border-radius: 30px;
+          object-fit: cover;
+          box-shadow: 0 22px 50px rgba(15, 23, 42, 0.18);
+        }
+
+        .section {
+          padding: 78px 0;
+        }
+
+        .section-light {
+          background: #f8f7f4;
+        }
+
+        .section-white {
+          background: #ffffff;
+        }
+
+        .section-head {
+          max-width: 52rem;
+          margin-bottom: 28px;
+        }
+
+        .section-head p,
+        .body-copy p,
+        .centered-copy p,
+        .contact-copy p,
+        .form-note,
+        .disclaimer,
+        .info-card p {
+          color: #475569;
+          line-height: 1.85;
+          font-size: 16px;
+        }
+
+        .body-copy p,
+        .contact-copy p {
+          margin: 0 0 16px;
+        }
+
+        .card-grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 20px;
+        }
+
+        .info-card {
+          border-radius: 26px;
+          background: #ffffff;
+          border: 1px solid #e2e8f0;
+          padding: 24px;
+          box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+        }
+
+        .info-card h3,
+        .form-card h3 {
+          margin: 0;
+          font-size: 24px;
+          line-height: 1.2;
+          color: #1e2e52;
+        }
+
+        .band-section {
+          background: #1e2e52;
+          color: #ffffff;
+          text-align: center;
+        }
+
+        .band-section h2,
+        .band-section p {
+          color: #ffffff;
+        }
+
+        .centered-copy {
+          max-width: 56rem;
+        }
+
+        .contact-grid {
+          align-items: start;
+        }
+
+        .contact-list {
+          display: grid;
+          gap: 14px;
+          margin-top: 24px;
+        }
+
+        .contact-item {
+          padding: 16px 18px;
+          background: #ffffff;
+          border: 1px solid #e2e8f0;
+          border-radius: 20px;
+          box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+        }
+
+        .contact-item strong {
+          display: block;
+          margin-bottom: 6px;
+          color: #1e2e52;
+          font-family: Arial, sans-serif;
+          font-size: 13px;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+        }
+
+        .contact-item a {
+          color: #475569;
+          text-decoration: none;
+          word-break: break-word;
+        }
+
+        .form-card {
+          background: #ffffff;
+          border-radius: 30px;
+          padding: 28px;
+          box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+          border: 1px solid #e2e8f0;
+        }
+
+        .consult-form {
+          display: grid;
+          gap: 14px;
+          margin-top: 18px;
+        }
+
+        .consult-form input,
+        .consult-form textarea {
+          width: 100%;
+          border: 1px solid #cbd5e1;
+          border-radius: 18px;
+          padding: 15px 16px;
+          font-size: 16px;
+          font-family: Arial, sans-serif;
+          color: #0f172a;
+          background: #ffffff;
+          outline: none;
+        }
+
+        .consult-form textarea {
+          resize: vertical;
+          min-height: 130px;
+        }
+
+        .disclaimer {
+          margin: 14px 0 0;
+          font-size: 13px;
+          color: #64748b;
+        }
+
+        .site-footer {
+          border-top: 1px solid rgba(30, 46, 82, 0.1);
+          background: #ffffff;
+        }
+
+        .footer-inner {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 16px;
+          padding: 20px 0;
+          color: #64748b;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          flex-wrap: wrap;
+        }
+
+        @media (max-width: 980px) {
+          .hero-grid,
+          .attorney-grid,
+          .contact-grid,
+          .split-section,
+          .card-grid {
+            grid-template-columns: 1fr;
+          }
+
+          .hero-copy h1 {
+            max-width: none;
+          }
+
+          .hero-image,
+          .attorney-photo {
+            max-width: 420px;
+          }
+        }
+
+        @media (max-width: 720px) {
+          .container {
+            width: min(100% - 28px, 1200px);
+          }
+
+          .header-inner {
+            justify-content: center;
+            text-align: center;
+            gap: 14px;
+          }
+
+          .brand {
+            justify-content: center;
+            width: 100%;
+          }
+
+          .brand-logo {
+            height: 48px;
+          }
+
+          .site-nav {
+            width: 100%;
+            gap: 14px 18px;
+          }
+
+          .header-cta {
+            width: 100%;
+          }
+
+          .hero-section {
+            padding: 40px 0 56px;
+          }
+
+          .section {
+            padding: 58px 0;
+          }
+
+          .hero-actions {
+            flex-direction: column;
+          }
+
+          .hero-actions .button {
+            width: 100%;
+          }
+
+          .hero-image,
+          .attorney-photo {
+            max-width: 100%;
+            border-radius: 24px;
+          }
+
+          .form-card {
+            padding: 22px;
+            border-radius: 24px;
+          }
+
+          .info-card {
+            padding: 20px;
+          }
+
+          .footer-inner {
+            justify-content: center;
+            text-align: center;
+          }
+        }
+      `}</style>
+    </>
   );
 }
