@@ -174,11 +174,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section id="contact" style={{ background: '#1e2e52', color: '#fff', padding: '72px 24px' }}>
           <div style={{ maxWidth: 1120, margin: '0 auto', display: 'grid', gridTemplateColumns: '0.92fr 1.08fr', gap: 32, alignItems: 'start' }}>
             <div>
