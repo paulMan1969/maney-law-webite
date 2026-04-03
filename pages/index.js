@@ -96,11 +96,27 @@ export default function Home() {
               <div style={{ fontSize: 12, letterSpacing: '0.24em', textTransform: 'uppercase', color: '#7a6222', fontWeight: 700 }}>Attorney Bio</div>
               <h2 style={{ fontSize: 42, lineHeight: 1.12, color: '#1e2e52', marginTop: 14 }}>Paul Maney</h2>
               <div style={{ marginTop: 20, color: '#475569', fontSize: 17, lineHeight: 1.9 }}>
-                <p>Born and raised in South Tampa, Paul attended Berkeley Preparatory School and is a Troop 4 Eagle Scout. He received his undergraduate degree from Boston University and his Juris Doctor from The University of Montana School of Law.</p>
-                <p>After receiving his undergraduate degree, and prior to attending law school, Paul served as an Officer in the United States Marine Corps, attaining the rank of Captain. He received a Navy Commendation Medal for meritorious service while serving consecutively as a Platoon Commander, the Executive Officer, and the Commanding Officer for Company E, 3d Assault Amphibian Battalion, 1st Marine Division from 1992 to 1995.</p>
-                <p>For four years prior to attending law school, Paul was employed as the Operations Director of Brownstone Gallery, Ltd. in New York, overseeing the manufacture, importation, and distribution of high-end table linens for major national retailers.</p>
-                <p>Since graduating from law school and joining the Florida Bar in 2003, Paul has practiced at Maney, Damsker, Jones & Kuhlman, P.A., a boutique law firm serving high net worth clients. Focused on family law matters, Paul has represented clients from all walks of life including lawyers, athletes, military officers, and businessmen.</p>
-                <p>Paul has also given back to the community with pro bono work, serving as the Hillsborough County Family Law Executive Council Pro Bono Chair and being recognized by the Supreme Court of Florida for exceptional pro bono service in 2013.</p>
+                 <p>If you are facing a divorce, custody dispute, or financial battle, experience matters, and so does having an attorney who knows how to win in court.</p>
+
+<p>Paul S. Maney brings more than 20 years of focused family law experience to Alaska. Admitted to the Florida Bar in 2003 and the Alaska Bar in 2026, Paul has built his career handling complex, high-stakes family law cases, including divorce, child custody, relocation, support, and significant financial disputes. He has extensive trial experience and is known for thorough preparation, strategic thinking, and strong courtroom advocacy.</p>
+
+<p>Paul began his legal career at Maney, Damsker, Jones &amp; Kuhlman, P.A., where he practiced from 2003 through 2014 representing clients in sophisticated family law matters. In 2015, he founded his own firm, Paul S. Maney, P.A., doing business as Maney Family Law, where he has continued to represent clients from all walks of life, including professionals, business owners, and military service members, with a results-driven approach.</p>
+
+<p>Now, through Maney Law LLC, Paul is proud to serve clients across the Kenai Peninsula, including Seldovia, Homer, Soldotna, and Kenai. With modern technology such as Zoom and Microsoft Teams, he provides responsive, high-level legal representation without requiring clients to travel, while remaining fully prepared to appear in court when it matters most.</p>
+
+<p>Paul’s connection to Alaska runs deep. His family has been traveling here since 2006, forming lasting friendships and becoming part of the community. In 2024, they purchased a home in Seldovia, where they were welcomed with open arms. In 2025, his daughter Parker married into a long-time local family, and she and her husband now work together in the family aviation business, True North Air, LLC. Alaska is not just a place Paul practices, it is like home.</p>
+
+<p>Paul also brings a unique perspective to military family law. As a former Officer in the United States Marine Corps, where he served as a Captain and received the Navy Commendation Medal, he understands the realities of military life. His years practicing near MacDill Air Force Base in Tampa strengthened his experience handling military divorces, custody issues, and relocation matters.</p>
+
+<p>Beyond his practice, Paul has a long-standing commitment to service. He has been actively involved with the Hillsborough County Family Law Executive Council for many years and currently serves as Co-Chair of the Awards Committee. Pro bono work has always been a priority. He regularly volunteers at legal advice clinics and is a sustaining member of Bay Area Legal Services.</p>
+
+<p>Paul is committed to helping individuals and families in Alaska navigate difficult transitions with clarity, strength, and experienced guidance. When the stakes are high, you want an attorney who has been there before and knows how to move your case forward.</p>
+
+<p>Born and raised in Tampa, Florida, Paul attended Berkeley Preparatory School and is a Troop 4 Eagle Scout. He earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.</p>
+
+<p>Before entering the legal profession, Paul served as an Officer in the United States Marine Corps from 1992 to 1995, holding leadership roles as a Platoon Commander, Executive Officer, and Commanding Officer for Company E, 3d Assault Amphibian Battalion, 1st Marine Division.</p>
+
+<p>He also served as Operations Director of Brownstone Gallery, Ltd. in New York, where he managed the manufacture, importation, and distribution of high-end table linens for major national retailers.</p>
               </div>
             </div>
           </div>
