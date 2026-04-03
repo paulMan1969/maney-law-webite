@@ -36,8 +36,8 @@ export default function Home() {
               <div style={{ display: 'inline-block', border: '1px solid rgba(199,162,74,0.4)', background: '#fff', padding: '8px 14px', borderRadius: 999, fontSize: 12, color: '#475569', boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
                 Efficiently Delivering Quality Legal Service
               </div>
-              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.3rem)', lineHeight: 1.05, color: '#1e2e52', margin: '20px 0 0', letterSpacing: '-0.02em' }}>
-                Discreet, high-end family law representation for clients throughout Alaska.
+              <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.1rem)', lineHeight: 1.08, color: '#1e2e52', margin: '20px 0 0', letterSpacing: '-0.02em' }}>
+  Experienced family law representation for clients throughout Alaska.
               </h1>
               <p style={{ fontSize: 20, lineHeight: 1.8, color: '#475569', maxWidth: 720, marginTop: 24 }}>
                 Led by attorney Paul S. Maney, Maney Law LLC brings more than two decades of family law experience to clients seeking practical, efficient, and discreet representation.
