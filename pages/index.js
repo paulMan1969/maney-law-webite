@@ -343,16 +343,13 @@ export default function Home() {
                 </p>
 
                 <p>
-                  Born and raised in Tampa, Florida, Paul attended Berkeley Preparatory School and is a Troop 4 Eagle Scout. He earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.
+                  An Eagle Scout, Paul earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.
                 </p>
 
                 <p>
-                  Before entering the legal profession, Paul served as an Officer in the United States Marine Corps from 1992 to 1995, holding leadership roles as a Platoon Commander, Executive Officer, and Commanding Officer for Company E, 3d Assault Amphibian Battalion, 1st Marine Division.
+                  Before entering the legal profession, Paul served as an Officer in the United States Marine Corps from 1991 to 1995, holding leadership roles as a Platoon Commander, Executive Officer, and Commanding Officer for Company E, 3d Assault Amphibian Battalion, 1st Marine Division.
                 </p>
-
-                <p>
-                  He also served as Operations Director of Brownstone Gallery, Ltd. in New York, where he managed the manufacture, importation, and distribution of high-end table linens for major national retailers.
-                </p>
+   
               </div>
             </div>
           </div>
