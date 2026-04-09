@@ -32,7 +32,8 @@ export default function Home() {
     },
   ];
 
-  const scheduleUrl = "https://calendly.com/paul-m-placeholder";
+  const scheduleUrl =
+    "https://maneylaw.cliogrow.com/book/3e20bb683c7016307c4882986a93f810";
 
   return (
     <>
@@ -63,18 +64,25 @@ export default function Home() {
 
             <div className="container hero-grid">
               <div className="hero-copy">
-                <div className="eyebrow">Efficiently Delivering Quality Legal Service</div>
+                <div className="eyebrow">
+                  Efficiently Delivering Quality Legal Service
+                </div>
 
                 <h1>
-                  Discreet, high-end family law representation for clients throughout Alaska.
+                  Discreet, high-end family law representation for clients
+                  throughout Alaska.
                 </h1>
 
                 <p className="lead">
-                  Led by attorney Paul S. Maney, Maney Law LLC brings more than two decades of family law experience to clients seeking practical, efficient, and discreet representation.
+                  Led by attorney Paul S. Maney, Maney Law LLC brings more than
+                  two decades of family law experience to clients seeking
+                  practical, efficient, and discreet representation.
                 </p>
 
                 <p className="sublead">
-                  Based in Homer and admitted to the Alaska Bar in 2026, the firm serves clients throughout Alaska with consultations available by Zoom and phone.
+                  Based in Homer and admitted to the Alaska Bar in 2026, the
+                  firm serves clients throughout Alaska with consultations
+                  available by Zoom and phone.
                 </p>
 
                 <div className="hero-actions">
@@ -88,7 +96,11 @@ export default function Home() {
               </div>
 
               <div className="hero-image-wrap">
-                <img src="/paul-main.jpg" alt="Paul Maney" className="hero-image" />
+                <img
+                  src="/paul-main.jpg"
+                  alt="Paul Maney"
+                  className="hero-image"
+                />
               </div>
             </div>
           </section>
@@ -97,18 +109,26 @@ export default function Home() {
             <div className="container split-section">
               <div>
                 <div className="section-label">About the Firm</div>
-                <h2>Family law service designed to be both efficient and personal.</h2>
+                <h2>
+                  Family law service designed to be both efficient and personal.
+                </h2>
               </div>
 
               <div className="body-copy">
                 <p>
-                  Maney Law LLC is a remote family law practice based in the Homer area and serving clients throughout Alaska.
+                  Maney Law LLC is a remote family law practice based in the
+                  Homer area and serving clients throughout Alaska.
                 </p>
                 <p>
-                  The firm is built for clients who want experienced counsel, responsive communication, and a professional process that respects both the emotional and financial weight of family law matters.
+                  The firm is built for clients who want experienced counsel,
+                  responsive communication, and a professional process that
+                  respects both the emotional and financial weight of family law
+                  matters.
                 </p>
                 <p>
-                  Consultations and meetings are available by Zoom and phone, offering convenient access to legal guidance without sacrificing personal attention.
+                  Consultations and meetings are available by Zoom and phone,
+                  offering convenient access to legal guidance without
+                  sacrificing personal attention.
                 </p>
               </div>
             </div>
@@ -120,7 +140,8 @@ export default function Home() {
                 <div className="section-label">Practice Areas</div>
                 <h2>Focused family law representation.</h2>
                 <p>
-                  Clear, recognizable services presented in a format that reads well on desktop and mobile.
+                  Clear, recognizable services presented in a format that reads
+                  well on desktop and mobile.
                 </p>
               </div>
 
@@ -138,7 +159,11 @@ export default function Home() {
           <section id="attorney" className="section section-light">
             <div className="container attorney-grid">
               <div className="attorney-photo-wrap">
-                <img src="/paul-main.jpg" alt="Paul Maney portrait" className="attorney-photo" />
+                <img
+                  src="/paul-main.jpg"
+                  alt="Paul Maney portrait"
+                  className="attorney-photo"
+                />
               </div>
 
               <div>
@@ -147,25 +172,63 @@ export default function Home() {
 
                 <div className="body-copy">
                   <p>
-                   Paul began his legal career at Maney, Damsker, Jones &amp; Kuhlman, P.A., where he practiced from 2003 through 2014 representing clients in sophisticated family law matters. In 2015, he founded his own firm, Paul S. Maney, P.A., doing business as Maney Family Law, where he has continued to represent clients from all walks of life, including professionals, business owners, and military service members, with a results-driven approach.
+                    Paul began his legal career at Maney, Damsker, Jones &amp;
+                    Kuhlman, P.A., where he practiced from 2003 through 2014
+                    representing clients in sophisticated family law matters. In
+                    2015, he founded his own firm, Paul S. Maney, P.A., doing
+                    business as Maney Family Law, where he has continued to
+                    represent clients from all walks of life, including
+                    professionals, business owners, and military service
+                    members, with a results-driven approach.
                   </p>
                   <p>
-                    Now, through Maney Law LLC, Paul is proud to serve clients across the Kenai Peninsula, including Seldovia, Homer, Soldotna, and Kenai. With modern technology such as Zoom and Microsoft Teams, he provides responsive, high-level legal representation without requiring clients to travel, while remaining fully prepared to appear in court when it matters most.
+                    Now, through Maney Law LLC, Paul is proud to serve clients
+                    across the Kenai Peninsula, including Seldovia, Homer,
+                    Soldotna, and Kenai. With modern technology such as Zoom and
+                    Microsoft Teams, he provides responsive, high-level legal
+                    representation without requiring clients to travel, while
+                    remaining fully prepared to appear in court when it matters
+                    most.
                   </p>
                   <p>
-                    Paul’s connection to Alaska runs deep. His family has been traveling here since 2006, forming lasting friendships and becoming part of the community. In 2024, they purchased a home in Seldovia, where they were welcomed with open arms. In 2025, his daughter Parker married into a long-time local family, and she and her husband now work together in the family aviation business, True North Air, LLC. Alaska is not just a place Paul practices, it is like home.
+                    Paul’s connection to Alaska runs deep. His family has been
+                    traveling here since 2006, forming lasting friendships and
+                    becoming part of the community. In 2024, they purchased a
+                    home in Seldovia, where they were welcomed with open arms.
+                    In 2025, his daughter Parker married into a long-time local
+                    family, and she and her husband now work together in the
+                    family aviation business, True North Air, LLC. Alaska is not
+                    just a place Paul practices, it is like home.
                   </p>
                   <p>
-                    Paul also brings a unique perspective to military family law. Having served as Commanding Officer of Company E, 3d Assault Amphibian Battalion, 1st Marine Division, he understands the realities of military life. His years practicing near MacDill Air Force Base in Tampa strengthened his experience handling military divorces, custody issues, and relocation matters.
+                    Paul also brings a unique perspective to military family
+                    law. Having served as Commanding Officer of Company E, 3d
+                    Assault Amphibian Battalion, 1st Marine Division, he
+                    understands the realities of military life. His years
+                    practicing near MacDill Air Force Base in Tampa strengthened
+                    his experience handling military divorces, custody issues,
+                    and relocation matters.
                   </p>
                   <p>
-                    Beyond his practice, Paul has a long-standing commitment to service. He has been actively involved with the Hillsborough County Family Law Executive Council for many years and currently serves as Co-Chair of the Awards Committee. Pro bono work has always been a priority. He regularly volunteers at legal advice clinics and is a sustaining member of Bay Area Legal Services.
+                    Beyond his practice, Paul has a long-standing commitment to
+                    service. He has been actively involved with the Hillsborough
+                    County Family Law Executive Council for many years and
+                    currently serves as Co-Chair of the Awards Committee. Pro
+                    bono work has always been a priority. He regularly volunteers
+                    at legal advice clinics and is a sustaining member of Bay
+                    Area Legal Services.
                   </p>
                   <p>
-                    Paul is committed to helping individuals and families in Alaska navigate difficult transitions with clarity, strength, and experienced guidance. When the stakes are high, you want an attorney who has been there before and knows how to move your case forward.
+                    Paul is committed to helping individuals and families in
+                    Alaska navigate difficult transitions with clarity, strength,
+                    and experienced guidance. When the stakes are high, you want
+                    an attorney who has been there before and knows how to move
+                    your case forward.
                   </p>
                   <p>
-                    An Eagle Scout, Paul earned his undergraduate degree from Boston University and his Juris Doctor from the University of Montana School of Law.
+                    An Eagle Scout, Paul earned his undergraduate degree from
+                    Boston University and his Juris Doctor from the University
+                    of Montana School of Law.
                   </p>
                 </div>
               </div>
@@ -174,10 +237,16 @@ export default function Home() {
 
           <section className="section band-section">
             <div className="container centered-copy">
-              <div className="section-label label-light">A Better Client Experience</div>
-              <h2>Professional guidance with the flexibility of remote access.</h2>
+              <div className="section-label label-light">
+                A Better Client Experience
+              </div>
+              <h2>
+                Professional guidance with the flexibility of remote access.
+              </h2>
               <p>
-                Whether you are in Homer or elsewhere in Alaska, Maney Law LLC offers a streamlined way to get the legal help you need through Zoom and phone consultations.
+                Whether you are in Homer or elsewhere in Alaska, Maney Law LLC
+                offers a streamlined way to get the legal help you need through
+                Zoom and phone consultations.
               </p>
             </div>
           </section>
@@ -188,7 +257,8 @@ export default function Home() {
                 <div className="section-label">Contact</div>
                 <h2>Start with a call or consultation request.</h2>
                 <p>
-                  Reach out to discuss your family law matter. Meetings are available by Zoom and phone.
+                  Reach out to discuss your family law matter. Meetings are
+                  available by Zoom and phone.
                 </p>
 
                 <div className="contact-list">
@@ -198,50 +268,70 @@ export default function Home() {
                   </div>
                   <div className="contact-item">
                     <strong>Email</strong>
-                    <a href="mailto:paul@maneylawllc.com">paul@maneylawllc.com</a>
+                    <a href="mailto:paul@maneylawllc.com">
+                      paul@maneylawllc.com
+                    </a>
                   </div>
                   <div className="contact-item">
                     <strong>Instagram</strong>
-                    <a href="https://instagram.com/maney_law_llc">@maney_law_llc</a>
+                    <a href="https://instagram.com/maney_law_llc">
+                      @maney_law_llc
+                    </a>
                   </div>
                   <div className="contact-item">
                     <strong>Schedule a Zoom Consultation</strong>
-                    <a href={scheduleUrl}>Book Online</a>
+                    <a
+                      href={scheduleUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Book Online
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="form-card">
                 <h3>Request Consultation</h3>
-                <p className="form-note">
-                  This form is ready for wiring to email next.
-                </p>
 
-               <form
-  className="consult-form"
-  action="https://formspree.io/f/mqegygbe"
-  method="POST"
->
-  <input type="text" name="name" placeholder="Full Name" required />
-  <input type="tel" name="phone" placeholder="Phone" />
-  <input type="email" name="email" placeholder="Email" required />
+                <form
+                  className="consult-form"
+                  action="https://formspree.io/f/mqegygbe"
+                  method="POST"
+                >
+                  <input type="text" name="name" placeholder="Full Name" required />
+                  <input type="tel" name="phone" placeholder="Phone" />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
 
-  <textarea
-    name="message"
-    rows="5"
-    placeholder="Tell us about your situation"
-    required
-  ></textarea>
+                  <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us about your situation"
+                    required
+                  ></textarea>
 
-  <input type="hidden" name="_subject" value="New Consultation Request - Maney Law LLC" />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New Consultation Request - Maney Law LLC"
+                  />
 
-  <button type="submit" className="button button-primary button-full">
-    Submit Consultation Request
-  </button>
-</form>
+                  <button
+                    type="submit"
+                    className="button button-primary button-full"
+                  >
+                    Submit Consultation Request
+                  </button>
+                </form>
 
                 <p className="disclaimer">
-                  Submitting this form does not create an attorney-client relationship.
+                  Submitting this form does not create an attorney-client
+                  relationship.
                 </p>
               </div>
             </div>
@@ -251,7 +341,10 @@ export default function Home() {
         <footer className="site-footer">
           <div className="container footer-inner">
             <div>© 2026 Maney Law LLC</div>
-            <div>Family Law • Homer, Alaska • Remote consultations by Zoom and phone</div>
+            <div>
+              Family Law • Homer, Alaska • Remote consultations by Zoom and
+              phone
+            </div>
           </div>
         </footer>
       </div>
@@ -305,7 +398,7 @@ export default function Home() {
           align-items: center;
           justify-content: space-between;
           gap: 20px;
-          padding: 14px 0;
+          padding: 8px 0;
           flex-wrap: wrap;
         }
 
@@ -316,7 +409,7 @@ export default function Home() {
         }
 
         .brand-logo {
-          height: 58px;
+          height: 84px;
           width: auto;
         }
 
@@ -516,7 +609,6 @@ export default function Home() {
         .body-copy p,
         .centered-copy p,
         .contact-copy p,
-        .form-note,
         .disclaimer,
         .info-card p {
           color: #475569;
@@ -691,7 +783,7 @@ export default function Home() {
           }
 
           .brand-logo {
-            height: 48px;
+            height: 64px;
           }
 
           .site-nav {
